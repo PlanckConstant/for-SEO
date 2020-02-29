@@ -1,3 +1,4 @@
+'''
 from pprint import pprint
 from requests_html import HTMLSession
 
@@ -13,7 +14,7 @@ h1 = resp.html.xpach('//h1/text()')
 print('title: ' + title)
 print('description: ' + description)
 print('h1: ' + h1)
-
+'''
 
 
 ######### list: ##########
@@ -21,7 +22,7 @@ print('h1: ' + h1)
 
 var = ['wdwdwdwdwdwd', '1312414214214214214', [1,2,3,5,5, ['w','w',3,5,'6f','eff','et34t4rg','dgf422rf','3r'], 'wfw', 'ww'],'wd']
 
-print(var[2][4])
+print(var[2][4]) #Внутри 2го списка 4й элемент
 #5
 print(var[0][4])
 #'w'

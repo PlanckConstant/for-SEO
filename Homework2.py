@@ -12,7 +12,7 @@ print('Длина keyword: ' + str(len(keyword)) + ' символов.')
 
 print('Количество слов URL: ' + (str(url.count('/') - url.count(' - ') - url.count(' | '))))
 print('Количество слов title: ' + (str(title.count(' ') + 1 - title.count(' - ') - title.count(' | '))))
-print('Количество слов description: ' + (str(description.count(' ') + 1 - description.count(' - ') - description.count(' | '))))
+print('Количество слов description: ' + (str(description.c ount(' ') + 1 - description.count(' - ') - description.count(' | '))))
 print('Количество слов h1: ' + (str(h1.count(' ') + 1 - h1.count(' - ') - h1.count(' | '))))
 print('Количество слов keyword: ' + (str(keyword.count(' ') + 1 - keyword.count(' - ') - keyword.count(' | '))))
 
